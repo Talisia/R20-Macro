@@ -1,0 +1,23 @@
+Int
+#wisp &{template:PTU}{{title=Interface}}{{[Initiative](~selected|init)=[Skills](!&#13;#Skills)}}{{[@{selected|Move1_Name}](!&#13;#Move1)=[@{selected|Move2_Name}](!&#13;#Move2)}}{{[@{selected|Move3_Name}](!&#13;#Move3)=[@{selected|Move4_Name}](!&#13;#Move4)}}{{[@{selected|Move5_Name}](!&#13;#Move5)=[@{selected|Move6_Name}](!&#13;#Move6)}}
+
+Move1
+#wisp &{template:PTU}{{title=@{selected|Move1_Name}}}{{Note:=Select Character Token, then press.}}{{[Physical (No Target)](!&#13;&#37;{selected|Move1AtkPhys})=[Physical (Targeted)](!&#13;&#37;{selected|Move1AtkPhys_tar})}}{{[Special (No Target)](!&#13;&#37;{selected|Move1AtkSpec})=[Special (Targeted)](!&#13;&#37;{selected|Move1AtkSpec_tar})}}{{[Status (No Target)](!&#13;&#37;{selected|Move1AtkStat})=[Status (Targeted)](!&#13;&#37;{selected|Move1AtkStat_tar})}}{{[Back](!&#13;#Int)=}}
+
+Move2
+#wisp &{template:PTU}{{title=@{selected|Move2_Name}}}{{Note:=Select Character Token, then press.}}{{[Physical (No Target)](!&#13;&#37;{selected|Move2AtkPhys})=[Physical (Targeted)](!&#13;&#37;{selected|Move2AtkPhys_tar})}}{{[Special (No Target)](!&#13;&#37;{selected|Move2AtkSpec})=[Special (Targeted)](!&#13;&#37;{selected|Move2AtkSpec_tar})}}{{[Status (No Target)](!&#13;&#37;{selected|Move2AtkStat})=[Status (Targeted)](!&#13;&#37;{selected|Move2AtkStat_tar})}}{{[Back](!&#13;#Int)=}}
+
+Move3
+#wisp &{template:PTU}{{title=@{selected|Move3_Name}}}{{Note:=Select Character Token, then press.}}{{[Physical (No Target)](!&#13;&#37;{selected|Move3AtkPhys})=[Physical (Targeted)](!&#13;&#37;{selected|Move3AtkPhys_tar})}}{{[Special (No Target)](!&#13;&#37;{selected|Move3AtkSpec})=[Special (Targeted)](!&#13;&#37;{selected|Move3AtkSpec_tar})}}{{[Status (No Target)](!&#13;&#37;{selected|Move3AtkStat})=[Status (Targeted)](!&#13;&#37;{selected|Move3AtkStat_tar})}}{{[Back](!&#13;#Int)=}}
+
+Move4
+#wisp &{template:PTU}{{title=@{selected|Move4_Name}}}{{Note:=Select Character Token, then press.}}{{[Physical (No Target)](!&#13;&#37;{selected|Move4AtkPhys})=[Physical (Targeted)](!&#13;&#37;{selected|Move4AtkPhys_tar})}}{{[Special (No Target)](!&#13;&#37;{selected|Move4AtkSpec})=[Special (Targeted)](!&#13;&#37;{selected|Move4AtkSpec_tar})}}{{[Status (No Target)](!&#13;&#37;{selected|Move4AtkStat})=[Status (Targeted)](!&#13;&#37;{selected|Move4AtkStat_tar})}}{{[Back](!&#13;#Int)=}}
+
+Move5
+#wisp &{template:PTU}{{title=@{selected|Move5_Name}}}{{Note:=Select Character Token, then press.}}{{[Physical (No Target)](!&#13;&#37;{selected|Move5AtkPhys})=[Physical (Targeted)](!&#13;&#37;{selected|Move5AtkPhys_tar})}}{{[Special (No Target)](!&#13;&#37;{selected|Move5AtkSpec})=[Special (Targeted)](!&#13;&#37;{selected|Move5AtkSpec_tar})}}{{[Status (No Target)](!&#13;&#37;{selected|Move5AtkStat})=[Status (Targeted)](!&#13;&#37;{selected|Move5AtkStat_tar})}}{{[Back](!&#13;#Int)=}}
+
+Move6
+#wisp &{template:PTU}{{title=@{selected|Move6_Name}}}{{Note:=Select Character Token, then press.}}{{[Physical (No Target)](!&#13;&#37;{selected|Move6AtkPhys})=[Physical (Targeted)](!&#13;&#37;{selected|Move6AtkPhys_tar})}}{{[Special (No Target)](!&#13;&#37;{selected|Move6AtkSpec})=[Special (Targeted)](!&#13;&#37;{selected|Move6AtkSpec_tar})}}{{[Status (No Target)](!&#13;&#37;{selected|Move6AtkStat})=[Status (Targeted)](!&#13;&#37;{selected|Move6AtkStat_tar})}}{{[Back](!&#13;#Int)=}}
+
+Skills
+#wisp &{template:PTU}{{title=Skills}}{{Note:=Select Character Token, then press.}}{{[Acrobatics](!&#13;&#37;{selected|AcrobaticsCheck})=[Athletics](!&#13;&#37;{selected|AthleticsCheck})}}{{[Combat](!&#13;&#37;{selected|CombatCheck})=[Intimidate](!&#13;&#37;{selected|IntimidateCheck})}}{{[Stealth](!&#13;&#37;{selected|StealthCheck})=[Survival](!&#13;&#37;{selected|SurvivalCheck})}}{{[Gen. Edu.](!&#13;&#37;{selected|GeneralEducationCheck})=[Med. Edu](!&#13;&#37;{selected|MedicineEducationCheck})}}{{[Occ. Edu.](!&#13;&#37;{selected|OccultEducationCheck})=[Poké. Edu](!&#13;&#37;{selected|PokemonEducationCheck})}}{{[Tech. Edu.](!&#13;&#37;{selected|TechnologyEducationCheck})=[Guile](!&#13;&#37;{selected|GuileCheck})}}{{[Perception](!&#13;&#37;{selected|PerceptionCheck})=[Charm](!&#13;&#37;{selected|CharmCheck})}}{{[Command](!&#13;&#37;{selected|CommandCheck})=[Focus](!&#13;&#37;{selected|FocusCheck})}}{{[Intuition](!&#13;&#37;{selected|IntuitionCheck})=[Back](!&#13;#Int)}}
